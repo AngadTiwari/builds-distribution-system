@@ -1,0 +1,132 @@
+.project_detail_body {
+    width: 100%;
+}
+
+.user_header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user_header > .user_dropdown::after {
+    content: "⌄";
+    top: 6px;
+    font-size: 42px;
+    right: 15px;
+    position: absolute;
+}
+
+.user_header > .user_dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 280px;
+    justify-content: space-between;
+}
+
+.user_header > .user_dropdown > .user_image_container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.user_header > .user_dropdown > .user_name {
+    font-size: 22px;
+    font-weight: 500;
+    height: fit-content;
+    min-width: 150px;
+}
+
+.user_header > .user_dropdown > .dropdown_arrow {
+    font-size: 40px;
+    height: 46px;
+    width: 50px;
+}
+
+.project_detail_container {
+    padding: 20px 30px;
+}
+
+.project_detail_container > .project_header_section {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project_detail_body > .no_project_selected {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.project_detail_container > .project_header_section > .button_section {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.project_detail_container > .project_header_section > .button_section button {
+    height: 60px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.project_detail_container > .project_header_section > .button_section button:first-child {
+    background-color: #30ad63;
+}
+
+.project_detail_container > .project_header_section > .button_section button:last-child {
+    background-color: #359dd9;
+}
+
+.project_detail_container > .project_header_section > .project_icon {
+    height: 140px;
+    width: 140px;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.project_detail_container > .project_header_section > .project_icon img {
+    height: 180px;
+    width: 180px;
+}
+
+.project_detail_container > .project_text_detail {
+    margin: 20px 0;
+    display: table;
+}
+
+.project_detail_container > .project_text_detail > .project_text_row {
+    display: table-row;
+}
+
+.project_detail_container > .project_text_detail > .project_text_row > span {
+    display: table-cell;
+    font-size: 20px;
+    min-width: 200px;
+}
+
+.project_detail_container > .project_text_detail > .project_text_row > span:first-child {
+    color: #359dd9;
+    font-weight: 600;
+}
+
+.project_detail_container > .project_link > .project_qr {
+    height: 240px;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid #34343467;
+}

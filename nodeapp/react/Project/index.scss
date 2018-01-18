@@ -1,0 +1,95 @@
+.detailContainer {
+    width: 100%;
+    height: 100%;
+    .projectHeader {
+        border-bottom: 1.5px solid white;
+        padding: 20px 28px;
+    }
+    
+    .projectBuild {
+        overflow-y: scroll;
+    }
+    
+    .no_detail {
+        margin: auto;
+        color: #fff;
+        font-size: 30px;
+        width: 250px;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .projectButtons {
+        margin-top: 30px;
+    }
+    
+    .project_edit_button {
+        height: 50px;
+        min-width: 200px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    p {
+        margin: 0 0 8px;
+    }
+}
+
+.padded {
+    padding: 2px;
+    overflow: hidden;
+}
+
+.display-flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.project_list_container {
+    height: 250px;
+}
+
+.project_list_container .srollable_items {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project_list_container .srollable_items .projectButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    height: 60px;
+    color: #fff;
+    background-color: #009CD7;
+    border-radius: 6px;
+}
+
+.project_list_container .srollable_items .projectButton.selected_build {
+    background-color: #fff;
+    color: #009CD7;
+}
+
+.project_list_title .title_section {
+    height: 65px;
+    align-items: center;
+}
+
+.project_list_container .srollable_items .projectButton > span {
+    text-align: left;
+    display: inline-block;
+}
+
+.project_list_container .srollable_items .projectButton > span:first-child {
+    width: 60%;
+}
+
+.project_list_container .srollable_items .projectButton > span:last-child {
+    width: 40%;
+}
+
+.add_build {
+    height: 44px;
+    width: 44px;
+}

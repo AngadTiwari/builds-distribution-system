@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Avenir';/*Helvetica;*/
+}
+
+input:hover, input:focus, button:hover, button:focus, textarea:hover, textarea:focus {
+    outline: none;
+    box-shadow: inset 0 0 3px 3px #00000075;
+}
+
+button {
+    border: none;
+}
+
+#root, #root > * {
+    height: inherit;
+}
+
+.base {
+    color: #009CD7;
+    background-color: #fff;
+}
+
+.no_bg_color {
+    background-color: transparent;
+}
+
+.base_rev {
+    color: #fff;
+    background-color: #009CD7;
+}
+
+.space_around_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.space_between_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.padding_10 {
+    padding: 10px;
+}
+
+.padding_20_28 {
+    padding: 20px 28px;
+}
+
+.padding_10_20 {
+    padding: 10px 20px;
+}
+
+/*Constants*/
+
+.corner_6 {
+    border-radius: 6px;
+}
+
+.font_light {
+    font-weight: 200;
+}
+
+.font_semilight {
+    font-weight: 300;
+}
+
+.font_normal {
+    font-weight: 400;
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.font_semibold {
+    font-weight: 600;
+}
+
+.font_16 {
+    font-size: 16px;
+}
+
+.font_22 {
+    font-size: 22px;
+}
+
+.font_26 {
+    font-size: 26px;
+}

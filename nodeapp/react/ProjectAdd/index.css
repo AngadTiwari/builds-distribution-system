@@ -1,0 +1,48 @@
+.add_project {
+    background-color: aliceblue;
+    color: black;
+    padding: 50px 20px 20px;
+    width: 100%;
+}
+
+.add_project > button.close {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 4px 0px grey;
+}
+
+.add_project > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_project h2 {
+    text-align: center;
+}
+
+.add_project input[type="text"],
+.add_project textarea {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.add_project input[type="text"] {
+    height: 40px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.add_project input[type="checkbox"] {
+    height: 40px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.add_project textarea {
+    resize: none;
+    width: 90%;
+    height: 100px;
+}
